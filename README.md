@@ -1,6 +1,6 @@
 # Digital-Clock
 
-https://github.com/koreaseop/Digital-Clock
+https://koreaseop.github.io/Digital-Clock/
 
 # 소개
 
