@@ -1,0 +1,104 @@
+@font-face {
+    font-family: 'digital-7-mono';
+    src: url('font/digital-7-mono.ttf');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'digital-7-mono', monospace;
+    background-image: url(/images/bg-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+p{
+    font-size: 30px;
+    margin-top: 35px;
+    margin-left: 5px;
+}
+
+.ampm{
+margin-right: 10px;
+font-size: 40px;
+}
+
+.clock {
+    background: rgba(0, 0, 0, 0.7);
+    height: 100px;
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid  white;
+    border-radius: 10px;
+    font-size: 50px;
+    color: white;
+    float: left;
+    position: absolute;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.6);
+}
+
+.hour {
+    background: rgba(0, 0, 0, 0.37);
+    height: 80px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.min {
+    background: rgba(0, 0, 0, 0.37);
+    height: 80px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+.sec {
+    background: rgba(0, 0, 0, 0.37);
+    height: 80px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+.date{
+    background: rgba(0, 0, 0, 0.7);
+    height: 60px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid white;
+    border-radius: 10px;
+    float: left;
+    position: absolute;
+    margin-top: 180px;
+    color: white;
+    font-size: 40px;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.6);
+}
+
+.weekday{
+    margin-left: 10px;
+}
