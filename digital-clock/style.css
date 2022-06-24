@@ -15,7 +15,7 @@ body {
     align-items: center;
     height: 100vh;
     font-family: 'digital-7-mono', monospace;
-    background-image: url(/images/bg-1.jpg);
+    background-image: url(images/bg-1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
